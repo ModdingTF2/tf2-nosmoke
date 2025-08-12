@@ -28,7 +28,7 @@ objects
 		HudStatusIcon		"obj_status_sentrygun_1"
 		VisibleInWeaponSelection 0
 		ExplodeSound		"Building_Sentry.Explode"
-		ExplodeEffect		"ExplosionCore_buildings"	
+		ExplodeEffect		"ExplosionCore_sapperdestroyed"	
 		UpgradeSound		"Building_Sentrygun.Built"
 		BuildCount		1
 		RequiresOwnBuilder	0
@@ -60,7 +60,7 @@ objects
 		HudStatusIcon		"obj_status_dispenser"
 		VisibleInWeaponSelection 0
 		ExplodeSound		"Building_Dispenser.Explode"
-		ExplodeEffect		"ExplosionCore_buildings"
+		ExplodeEffect		"ExplosionCore_sapperdestroyed"
 		UpgradeSound		"Building_Sentrygun.Built"
 		BuildCount		1
 		RequiresOwnBuilder	0
@@ -93,7 +93,7 @@ objects
 		HudStatusIcon		"obj_status_tele_entrance"
 		VisibleInWeaponSelection 0
 		ExplodeSound		"Building_Teleporter.Explode"
-		ExplodeEffect		"ExplosionCore_buildings"
+		ExplodeEffect		"ExplosionCore_sapperdestroyed"
 		UpgradeSound		"Building_Sentrygun.Built"
 		BuildCount		1
 		RequiresOwnBuilder	0

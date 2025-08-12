@@ -32,9 +32,9 @@ WeaponData
 	"bucket_position"	"0"
 	
 	"ExplosionSound"	"Weapon_Grenade_Pipebomb.Explode"
-	"ExplosionEffect"	"ExplosionCore_wall"
-	"ExplosionPlayerEffect"	"ExplosionCore_MidAir"
-	"ExplosionWaterEffect"	"ExplosionCore_MidAir_underwater"
+	"ExplosionEffect"	"ExplosionCore_sapperdestroyed"
+	"ExplosionPlayerEffect"	"ExplosionCore_sapperdestroyed"
+	"ExplosionWaterEffect"	"ExplosionCore_sapperdestroyed"
 
 	// Animation.
 	//"viewmodel"		"models/weapons/v_models/v_stickybomb_launcher_demo.mdl"

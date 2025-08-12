@@ -33,9 +33,9 @@ WeaponData
 	"MuzzleFlashParticleEffect" 	"muzzle_shotgun"
 
 	"ExplosionSound"		"Default.FlareImpact"
-	"ExplosionEffect"		"flaregun_destroyed"
-	"ExplosionWaterEffect"		"flaregun_destroyed"
-	"ExplosionPlayerEffect"		"flaregun_destroyed"		// this is also in air expolosion - not player
+	"ExplosionEffect"		"ExplosionCore_sapperdestroyed"
+	"ExplosionWaterEffect"		"ExplosionCore_sapperdestroyed"
+	"ExplosionPlayerEffect"		"ExplosionCore_sapperdestroyed"		// this is also in air expolosion - not player
 
 	// Animation.
 	"anim_prefix"			"mm"
