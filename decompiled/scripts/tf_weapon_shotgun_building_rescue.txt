@@ -1,27 +1,27 @@
 WeaponData
 {
 	// Attributes Base.
-	"printname"		"#TF_Weapon_RocketLauncher"
+	"printname"		"#TF_Weapon_Shotgun_Building_Rescue"
 	"BuiltRightHanded"	"0"
 	"weight"		"3"
 	"WeaponType"		"primary"
 	"ITEM_FLAG_NOITEMPICKUP" 	"1"
 	
 	// Primary Attributes.
-	"Damage"		"90"
+	"Damage"		"40"
 	"Range"			"0"
 	"BulletsPerShot"	"1"
 	"Spread"		"0.0"
-	"PunchAngle"		"0.0"
-	"TimeFireDelay"		"0.8"
-	"TimeIdle"		"0.8"
-	"TimeIdleEmpty"		"0.8"
-	"TimeReloadStart"	"0.1"
-	"TimeReload"		"0.83"
+	"PunchAngle"			"3.0"
+	"TimeFireDelay"			"0.625"
+	"TimeIdle"			"5.0"
+	"TimeIdleEmpty"			"0.25"
+	"TimeReloadStart"		"0.1"
+	"TimeReload"			"1.0"
 	"primary_ammo"		"TF_AMMO_PRIMARY"
-	clip_size		4
-	default_clip		4
-	"ProjectileType"	"projectile_rocket"
+	"clip_size"			"6"
+	"default_clip"		"6"
+	"ProjectileType"	"projectile_arrow"
 	"HasTeamSkins_Viewmodel"	"1"
 
 	// Secondary Attributes.
@@ -46,9 +46,11 @@ WeaponData
 	// Max of 16 per category (ie. max 16 "single_shot" sounds).
 	SoundData
 	{
-		"single_shot"	"Weapon_RPG.Single"
-//		"reload"		"Weapon_RPG.WorldReload"
-		"burst"			"Weapon_RPG.SingleCrit"	
+		"single_shot"	"Weapon_Shotgun.Single"
+		"empty"			"Weapon_Shotgun.Empty"
+		"reload"		"Weapon_Shotgun.WorldReload"
+		"special1"		"Weapon_Shotgun.Pump"
+		"burst"			"Weapon_Shotgun.SingleCrit"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
